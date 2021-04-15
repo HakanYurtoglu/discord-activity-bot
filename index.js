@@ -61,3 +61,4 @@ const createInvite = async (appID, channelID) => {
 
 client.login(token)
     .then(() => console.log("Bot is ready"))
+    .catch(e => console.log(e))
